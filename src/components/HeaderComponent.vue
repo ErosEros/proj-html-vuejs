@@ -11,19 +11,10 @@
                 <div class="col-6">
                     <ul class="d-flex justify-content-around">
                         <li v-for="(link, index) in links" :key="index">
-                        <a :class="{active: link.current }" :href="link.url">
-                        {{ link.text }}
-                        </a>
-                    </li>
-
-                    
-
-                        <!-- <li>HOME</li>
-                        <li>ABOUT</li>
-                        <li>SERVICE</li>
-                        <li>SHOWCASE</li>
-                        <li>BLOG</li>
-                        <li>CONTACT</li> -->
+                            <a :class="{active: link.current }" :href="link.url">
+                                {{ link.text }}
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-3 text-center">
@@ -51,7 +42,11 @@ export default {
         border: 1px solid black
     }
 
-    .li {
+    li{
         list-style: none
     }
+
+   a{
+    text-decoration: none
+   }
 </style>
