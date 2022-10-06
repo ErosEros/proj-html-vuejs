@@ -1,6 +1,8 @@
 <template>
   <HeaderComponent :links="menu"/>
+  
 
+  
 </template>
 
 
@@ -8,10 +10,13 @@
 import HeaderComponent from "./components/HeaderComponent.vue";
 
 
+
+
 export default {
-    components: { 
-      HeaderComponent 
-    },
+    components: {
+    HeaderComponent,
+
+},
     data(){
       return {
         menu: [
