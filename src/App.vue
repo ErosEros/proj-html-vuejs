@@ -1,5 +1,10 @@
 <template>
-  <HeaderComponent :links="menu"/>
+  <div id="app">
+    <HeaderComponent :links="menu"/>
+    <FooterComponent />
+  </div>
+  
+  
   
 
   
@@ -8,6 +13,9 @@
 
 <script>
 import HeaderComponent from "./components/HeaderComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
+
+
 
 
 
@@ -15,7 +23,7 @@ import HeaderComponent from "./components/HeaderComponent.vue";
 export default {
     components: {
     HeaderComponent,
-
+    FooterComponent
 },
     data(){
       return {
@@ -58,4 +66,8 @@ export default {
 
 <style lang="scss">
 @import '~bootstrap/scss/bootstrap';
+*{
+  overflow: hidden;
+
+}
 </style>

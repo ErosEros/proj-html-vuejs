@@ -1,7 +1,14 @@
 <template>
     <div class="container-header">
         <div class="header-top">
-            HeaderComponent 
+            <div id="eroseros" class="row d-flex justify-content-between">
+                <div class="col-3">
+                    numero cellulare
+                </div>
+                <div class="col-3 text-end">
+                    icon social
+                </div>
+            </div>
         </div>
         <div class="header-bottom">
             <div class="row">
@@ -47,6 +54,7 @@ export default {
     }
 
    a{
-    text-decoration: none
+    text-decoration: none;
+    
    }
 </style>
