@@ -5,6 +5,7 @@
     <Section2Content />
     <Section3Content />
     <Section4Content />
+    <Section5Content />
     <FooterComponent />
   </div>
   
@@ -22,6 +23,7 @@ import Section1Content from "./components/Section-1-Content.vue";
 import Section2Content from "./components/Section-2-content.vue";
 import Section3Content from "./components/Section-3-content.vue";
 import Section4Content from "./components/Section-4-content.vue";
+import Section5Content from "./components/Section-5-content.vue";
 
 
 
@@ -35,7 +37,8 @@ export default {
     Section1Content,
     Section2Content,
     Section3Content,
-    Section4Content
+    Section4Content,
+    Section5Content
 },
     data(){
       return {
