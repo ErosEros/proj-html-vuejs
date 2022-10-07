@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <HeaderComponent :links="menu"/>
+    <Section1Content />
     <FooterComponent />
   </div>
   
@@ -14,6 +15,7 @@
 <script>
 import HeaderComponent from "./components/HeaderComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
+import Section1Content from "./components/Section-1-Content.vue";
 
 
 
@@ -23,7 +25,8 @@ import FooterComponent from "./components/FooterComponent.vue";
 export default {
     components: {
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    Section1Content
 },
     data(){
       return {
@@ -68,6 +71,9 @@ export default {
 @import '~bootstrap/scss/bootstrap';
 *{
   overflow: hidden;
+  
 
 }
+
+
 </style>

@@ -46,7 +46,8 @@ export default {
     }
     .header-bottom {
         height: 10vh;
-        border: 1px solid black
+        border: 1px solid black;
+        padding: 1rem
     }
 
     li{
