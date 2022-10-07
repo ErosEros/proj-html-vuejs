@@ -6,6 +6,7 @@
     <Section3Content />
     <Section4Content />
     <Section5Content />
+    <Section6Content />
     <FooterComponent />
   </div>
   
@@ -24,6 +25,7 @@ import Section2Content from "./components/Section-2-content.vue";
 import Section3Content from "./components/Section-3-content.vue";
 import Section4Content from "./components/Section-4-content.vue";
 import Section5Content from "./components/Section-5-content.vue";
+import Section6Content from "./components/Section-6-content.vue";
 
 
 
@@ -38,7 +40,8 @@ export default {
     Section2Content,
     Section3Content,
     Section4Content,
-    Section5Content
+    Section5Content,
+    Section6Content
 },
     data(){
       return {
@@ -83,9 +86,13 @@ export default {
 @import '~bootstrap/scss/bootstrap';
 *{
   overflow-x: hidden;
-  
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 
 }
 
-
+*h5{
+  overflow: hidden;
+}
 </style>
