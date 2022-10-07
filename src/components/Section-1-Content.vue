@@ -21,9 +21,12 @@ export default {
 }
 </script>
 <style lang="scss">
+    h1 {
+        overflow: hidden;
+    }
     .Section-1-container{
         margin: 5px;
-        
+       
         
     }
     .section-1-photo-bg{
