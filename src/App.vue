@@ -3,6 +3,7 @@
     <HeaderComponent :links="menu"/>
     <Section1Content />
     <Section2Content />
+    <Section3Content />
     <FooterComponent />
   </div>
   
@@ -18,6 +19,7 @@ import HeaderComponent from "./components/HeaderComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
 import Section1Content from "./components/Section-1-Content.vue";
 import Section2Content from "./components/Section-2-content.vue";
+import Section3Content from "./components/Section-3-content.vue";
 
 
 
@@ -29,7 +31,8 @@ export default {
     HeaderComponent,
     FooterComponent,
     Section1Content,
-    Section2Content
+    Section2Content,
+    Section3Content
 },
     data(){
       return {
